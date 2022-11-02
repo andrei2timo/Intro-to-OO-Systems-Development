@@ -8,22 +8,27 @@ the following properties.
     shop sells, with a string representing fixed stock code, an integer representing
     variable quantity in stock and a double representing variable price of the stocked
     item.
+    
     • A constructor that creates a Stock Item with the specified quantity, price, and the
     fixed stock code.
+    
     • All the appropriate ‘setters’ and ‘getters’ methods, including a getStockName()
     method which returns the string "Unknown Stock Name" and a getStockDescription()
     method which returns the string "Unknown Stock Description".
     • An addStock() method that increases the stock level by the given amount. If the
     value is less than one or the stock exceeds 100, a suitable error message should be
     printed.
+    
     • A sellStock() method that attempts to reduce the stock level by the given amount. If
     it is less than one, a suitable error message should be printed. If the amount is
     otherwise less than or equal to the stock level, then the reduction is successful and
     true is returned. Else there is no effect, but false is returned.
+    
     • A getVAT() method that returns the standard percentage VAT rate, e.g., you can use
     17.5
     • Appropriate ‘setters’ method for price (without VAT) and ‘getters’ methods for price
     with and without VAT
+    
     • A method named toString() that returns a string giving the stock code, the stock
     name, the description, the quantity in stock, the price before VAT and the price after
     VAT. It must use the appropriate methods above to obtain the stock name,
